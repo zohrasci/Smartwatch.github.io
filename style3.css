@@ -1,0 +1,253 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+p {
+  color: rgb(156, 156, 161);
+}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+body {
+  font-family: 'avenir-text';
+}
+header {
+  color: white;
+  width: 100%;
+  height: 60px;
+  background-color:#868B8E;
+  opacity: 0.8;
+  top:0;
+  position:fixed;
+  z-index: 10;
+align-items: center;
+
+}
+
+
+.header-list {
+  margin-left: 13rem;
+  display: flex;
+  margin-left: 42rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 20;
+  
+  
+}
+.header-logo {
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 15px;
+  font-family: fantasy;
+}
+.header-list li{
+  float:left;
+  margin-top:-27px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.header-list li:hover {
+  text-decoration:underline;
+}
+.header-list .header-logo {
+  float: left;
+}
+img {
+  width: 20rem;
+  align-items:flex-end;
+ 
+}
+li {
+  list-style: none;
+  padding-left: 10px;
+
+  padding-right: 1rem;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.container .top-wrapper {
+  color: white;
+  background-size: cover;
+  width:100%;
+}
+
+.top-wrapper {
+  height: 600px;
+  background-color: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,204,194,1) 0%, rgba(231,229,223,1) 52%, rgba(237,237,233,1) 84%, rgba(255,255,255,1) 100%);
+  background-size: cover;
+}
+.btn-wrapper {
+  margin-left:7rem;
+  margin-top: -2rem;
+  cursor:pointer;
+  
+
+
+}
+.signup {
+  background-color: rgb(243, 189, 124);
+  padding: 11px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 0 3px #868B8E;
+
+ 
+  
+}
+
+.btn-wrapper:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.container {
+
+margin-right: 3rem;
+float: left;
+}
+.container {
+  float:left;
+}
+.container .image1 {
+  padding-left: 38rem;
+  margin-top: -13rem;
+  width:18rem;
+}
+.container .image2 {
+  padding-left: 58rem;
+  margin-top:-11rem;
+  width: 17rem;
+  margin-bottom:4rem;
+  position: relative;
+}
+.container h2 {
+  color:black;
+  font-size: 48px;
+  margin-left:5rem;
+  margin-top: 12rem;
+  font-family: serif;
+}
+.container p {
+  font-family: sans-serif;
+  margin-right: 35rem;
+  margin-left: 85px;
+  margin-top:1rem;
+  font-size: 17px;
+}
+.message-wrapper {
+  height:360px;
+  background-color: whitesmoke;
+  float:left;
+  width:100%;
+
+}
+.paragraft {
+  margin-top: 4rem;
+  font-size: 18px;
+  margin-left: 10rem;
+}
+.paragraft p {
+margin-bottom: 2px;
+font-size: 17px;
+
+}
+.paragraft span {
+  color:#B1B1B1;
+border-radius: 6px;
+  background-color:antiquewhite;
+ 
+}
+.message-wrapper img {
+  display:flex;
+  float:left;
+  margin-left:54rem;
+  margin-top:-17rem;
+  transform: scale(1);
+  transition: all 2s;
+  
+}
+.lesson-wrapper {
+  height:580px;
+  font-family: sans-serif;
+  
+  justify-content: center;
+  
+  align-items: center;
+  border:#B1B1B1;
+}
+.container .heading {
+  margin-top: -8rem;
+  margin-bottom: 4rem;
+  justify-content: center;
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 25px;
+}
+.heading span {
+  color: bisque;
+}
+.lesson {
+  float: left;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.lesson img {
+  width: 220px
+  
+}
+.lesson-icon {
+  margin-left: 5rem;
+}
+.txt-content {
+  width: 80%;
+  dispaly: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  
+}
+.lesson-wrapper .heading-p p {
+  color:rgb(252, 186, 105);
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+
+}
+ footer .container {
+  background: #868B8E;
+  height: 140px;
+  width:100%;
+  float:left;
+}
+.footer-logo {
+font-size: 25px;
+margin-left: 40px;
+margin-top: 15px;
+font-family: fantasy;
+color:whitesmoke;
+float:left;
+align-items: center;
+margin-top: 55px;
+margin-left:5rem;
+
+
+}
+.footer-list {
+  margin-left: 12rem;
+  line-height: 12px;
+  float:right;
+  margin-top:15px;
+  margin-right:6rem;
+  color:white;}
+.footer-list li:hover {
+text-decoration: underline;
+  }
+  
+
+.footer-list li{
+  padding-bottom: -15px
+  
+}
