@@ -27,7 +27,7 @@ align-items: center;
 .header-list {
   margin-left: 13rem;
   display: flex;
-  margin-left: 42rem;
+  margin-left: 39rem;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 20;
   
@@ -52,7 +52,7 @@ align-items: center;
   float: left;
 }
 img {
-  width: 20rem;
+  width: 16rem;
   align-items:flex-end;
  
 }
@@ -85,13 +85,15 @@ li {
 
 }
 .signup {
-  background-color: rgb(243, 189, 124);
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
   padding: 11px 20px;
   text-decoration: none;
   color: white;
   font-weight: bold;
-  border-radius: 15px;
-  box-shadow: 0 3px #868B8E;
+  border-radius: 25px;
+  
 
  
   
@@ -111,12 +113,12 @@ float: left;
   float:left;
 }
 .container .image1 {
-  padding-left: 38rem;
+  padding-left: 36rem;
   margin-top: -13rem;
   width:18rem;
 }
 .container .image2 {
-  padding-left: 58rem;
+  padding-left: 56rem;
   margin-top:-11rem;
   width: 17rem;
   margin-bottom:4rem;
@@ -163,9 +165,10 @@ border-radius: 6px;
   display:flex;
   float:left;
   margin-left:54rem;
-  margin-top:-17rem;
+  margin-top:-18.5rem;
   transform: scale(1);
   transition: all 2s;
+  width: 20rem;
   
 }
 .lesson-wrapper {
